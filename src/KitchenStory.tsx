@@ -5,7 +5,7 @@ import './KitchenStory.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const ROOT = '/kitchen-scroll/';
+const ROOT = import.meta.env.BASE_URL + 'kitchen-scroll/';
 const CONFIG = {
   desktop: { count: 84, scrollScreens: 3.8, preloadWorkers: 8 },
   mobile: { count: 72, scrollScreens: 2.6, preloadWorkers: 5 },

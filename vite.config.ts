@@ -1,3 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-export default defineConfig({plugins:[react()]});
+const isPages = process.env.GITHUB_PAGES === 'true';
+export default defineConfig({
+  plugins: [react()],
+  base: isPages ? '/CookSmart-ApplePie-Scroll/' : '/',
+});
