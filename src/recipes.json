@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "title": "Stovetop mac & cheese",
+    "category": "Dinner",
+    "minutes": 25,
+    "yield": "4 servings",
+    "description": "A silky cheddar sauce, a pot of pasta, and a very good reason to stay in.",
+    "ingredients": [
+      "Macaroni",
+      "Cheddar",
+      "Milk",
+      "Butter",
+      "Flour",
+      "Paprika"
+    ],
+    "steps": [
+      "Boil the macaroni, then drain. Cook butter and flour together to make the base for the sauce.",
+      "Gradually whisk in milk and simmer until thick. Remove from the heat, season, and melt in the cheddar in batches.",
+      "Fold in the pasta and serve warm."
+    ],
+    "source": "https://www.budgetbytes.com/extra-cheesy-homemade-mac-and-cheese/",
+    "publisher": "Budget Bytes",
+    "image": "https://www.budgetbytes.com/wp-content/uploads/2024/12/Homemade-Mac-and-Cheese-Overhead-Macro-500x375.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Classic sloppy joes",
+    "category": "Dinner",
+    "minutes": 30,
+    "yield": "5 servings",
+    "description": "A tangy tomato-and-beef filling piled into a toasted bun. Napkins encouraged.",
+    "ingredients": [
+      "Ground beef",
+      "Onion",
+      "Bell pepper",
+      "Tomato sauce",
+      "Hamburger buns"
+    ],
+    "steps": [
+      "Brown the beef, drain excess fat, and soften the chopped vegetables in the same skillet.",
+      "Mix in the tomato ingredients, vinegar, sugar, and seasonings. Simmer briefly until combined.",
+      "Spoon the filling into toasted buns."
+    ],
+    "source": "https://www.budgetbytes.com/sloppy-joes/",
+    "publisher": "Budget Bytes",
+    "image": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Classic-Sloppy-Joes-plate-500x375.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Chicken noodle soup",
+    "category": "Dinner",
+    "minutes": 105,
+    "yield": "8 servings",
+    "description": "Slow-simmered chicken, tender noodles, and vegetables in a comforting broth.",
+    "ingredients": [
+      "Chicken",
+      "Egg noodles",
+      "Carrots",
+      "Celery",
+      "Chicken broth"
+    ],
+    "steps": [
+      "Soften the vegetables, then add the garlic, herbs, chicken, and broth.",
+      "Simmer gently, covered, until the chicken can be shredded. Remove it and shred with two forks.",
+      "Cook noodles in the broth, then return the chicken and finish with parsley."
+    ],
+    "source": "https://www.budgetbytes.com/chicken-noodle-soup/",
+    "publisher": "Budget Bytes",
+    "image": "https://www.budgetbytes.com/wp-content/uploads/2017/02/Chicken-Noodle-Soup-Overhead-500x375.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Sunday meatloaf",
+    "category": "Dinner",
+    "minutes": 65,
+    "yield": "7 slices",
+    "description": "A family-table classic with a sweet and tangy glaze.",
+    "ingredients": [
+      "Ground beef",
+      "Breadcrumbs",
+      "Egg",
+      "Milk",
+      "Onion",
+      "Ketchup"
+    ],
+    "steps": [
+      "Combine the beef with the egg mixture, seasoned breadcrumbs, and onion without overworking it.",
+      "Shape into a loaf on a rimmed baking dish. Spread the ketchup glaze over the top and sides.",
+      "Bake at 350°F according to the full recipe, checking the internal temperature. Rest before slicing."
+    ],
+    "source": "https://www.budgetbytes.com/classic-homemade-meatloaf/",
+    "publisher": "Budget Bytes",
+    "image": "https://www.budgetbytes.com/wp-content/uploads/2024/12/classic-meatloaf-slices-500x375.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Beef & bean chili",
+    "category": "Dinner",
+    "minutes": 50,
+    "yield": "6 servings",
+    "description": "A hearty pot of beef, two kinds of beans, and warming spices.",
+    "ingredients": [
+      "Ground beef",
+      "Kidney beans",
+      "Black beans",
+      "Tomatoes",
+      "Chili powder"
+    ],
+    "steps": [
+      "Soften onion and garlic in oil, then brown the beef.",
+      "Stir in drained beans, tomatoes, tomato paste, water, and spices.",
+      "Cover and simmer for at least 30 minutes, stirring occasionally. Adjust the seasoning before serving."
+    ],
+    "source": "https://www.budgetbytes.com/basic-chili/",
+    "publisher": "Budget Bytes",
+    "image": "https://www.budgetbytes.com/wp-content/uploads/2025/03/3-Classic-Homemade-Chili-Front-Macro-500x375.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Buffalo chicken wings",
+    "category": "Dinner",
+    "minutes": 70,
+    "yield": "4 servings",
+    "description": "Oven-baked wings finished with a buttery, spicy Buffalo sauce.",
+    "ingredients": [
+      "Chicken wings",
+      "Hot sauce",
+      "Butter",
+      "Cornstarch",
+      "Paprika"
+    ],
+    "steps": [
+      "Dry the wings and coat with oil, cornstarch, and seasonings. Arrange on a rack over a baking sheet.",
+      "Bake at 400°F, turning partway through, following the full recipe for doneness.",
+      "Warm the butter with hot sauce and seasonings, then toss with the cooked wings."
+    ],
+    "source": "https://www.budgetbytes.com/buffalo-wings/",
+    "publisher": "Budget Bytes",
+    "image": "https://www.budgetbytes.com/wp-content/uploads/2024/01/buffalo-wings-overhead-horizontal-WR-500x375.jpg"
+  },
+  {
+    "id": 7,
+    "title": "All-American apple pie",
+    "category": "Baking",
+    "minutes": 120,
+    "yield": "One 9-inch pie",
+    "description": "Spiced apples tucked beneath a golden pastry crust.",
+    "ingredients": [
+      "Apples",
+      "Flour",
+      "Butter",
+      "Shortening",
+      "Sugar",
+      "Cinnamon"
+    ],
+    "steps": [
+      "Make and chill the pastry. Toss sliced apples with lemon, sugar, spices, and thickener.",
+      "Line the pie dish, add the filling and butter, then cover with pastry and cut steam vents.",
+      "Bake initially at 425°F, then lower to 375°F as directed. Let the filling bubble and cool the pie fully before slicing."
+    ],
+    "source": "https://www.kingarthurbaking.com/recipes/apple-pie-recipe",
+    "publisher": "King Arthur Baking",
+    "image": "https://www.kingarthurbaking.com/sites/default/files/2026-02/Anatomy-Of-Perfect-Apple-Pie-Catalog.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Fluffy pancakes",
+    "category": "Breakfast",
+    "minutes": 45,
+    "yield": "12 pancakes",
+    "description": "Golden edges, soft centers. Make a stack for a slow morning.",
+    "ingredients": [
+      "Flour",
+      "Eggs",
+      "Milk",
+      "Butter",
+      "Baking powder"
+    ],
+    "steps": [
+      "Beat eggs and milk until foamy, then add melted butter. Mix the dry ingredients separately.",
+      "Gently combine and rest the batter for 15 minutes. Heat a lightly greased griddle.",
+      "Cook quarter-cup portions, flipping when bubbles break on the surface. Serve straight away."
+    ],
+    "source": "https://www.kingarthurbaking.com/recipes/simply-perfect-pancakes-recipe",
+    "publisher": "King Arthur Baking",
+    "image": "https://www.kingarthurbaking.com/sites/default/files/recipe_legacy/48-3-large.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Fudge brownies",
+    "category": "Baking",
+    "minutes": 40,
+    "yield": "24 brownies",
+    "description": "Deep chocolate flavor with a soft center and a glossy top.",
+    "ingredients": [
+      "Cocoa",
+      "Chocolate chips",
+      "Butter",
+      "Eggs",
+      "Sugar",
+      "Flour"
+    ],
+    "steps": [
+      "Combine the eggs, cocoa, and flavorings. Warm the butter with sugar, then stir it into the cocoa mixture.",
+      "Fold in flour and chocolate chips. Spread in a prepared 9 × 13-inch pan.",
+      "Bake at 350°F for about 28–32 minutes. Cool before cutting."
+    ],
+    "source": "https://www.kingarthurbaking.com/recipes/fudge-brownies-recipe",
+    "publisher": "King Arthur Baking",
+    "image": "https://www.kingarthurbaking.com/sites/default/files/2026-08/Fudge-Brownies_2026_Lifesyle_H_1560.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Cream drop biscuits",
+    "category": "Baking",
+    "minutes": 15,
+    "yield": "12 biscuits",
+    "description": "A simple two-ingredient dough for tender, warm biscuits.",
+    "ingredients": [
+      "Self-rising flour",
+      "Heavy cream",
+      "Salt"
+    ],
+    "steps": [
+      "Heat the oven to 450°F. Mix self-rising flour with heavy cream to form a cohesive dough.",
+      "Scoop onto a lined baking sheet, leaving room between biscuits. Brush the tops with liquid.",
+      "Bake about 10 minutes until golden and cooked through. Serve warm."
+    ],
+    "source": "https://www.kingarthurbaking.com/recipes/easy-drop-biscuits-recipe",
+    "publisher": "King Arthur Baking",
+    "image": "https://www.kingarthurbaking.com/sites/default/files/2025-06/Easy-Drop-Biscuits-4.jpg"
+  }
+]
