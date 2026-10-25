@@ -1,41 +1,44 @@
-# CookSmart website
+# CookSmart — Apple Pie Scroll
 
-React + Vite + TypeScript + Tailwind adaptation of the supplied dental landing-page design. The Flutter app and APK are separate and were not modified by this redesign.
+A standalone React/Vite recipe website with an apple-pie canvas sequence driven by GSAP ScrollTrigger. This README describes the source in this repository rather than inheriting the original CookSmart delivery report.
 
-## Run
+## CookSmart version map
 
-Use `npm install`, then `npm run dev`. The preview runs at http://127.0.0.1:5173. `npm run build` produces `dist`.
+| Repository | Documented role |
+| --- | --- |
+| [CookSmart](https://github.com/Joepikka/CookSmart) | Original searchable recipe-library website. Its README and DATASET.md document 13,463 imported recipes plus ten curated previews. |
+| [CookSmart-ApplePie](https://github.com/Joepikka/CookSmart-ApplePie) | Independent apple-pie animation variant. Its own README describes 96 desktop / 84 mobile frames. |
+| [CookSmart-ApplePie-Scroll](https://github.com/Joepikka/CookSmart-ApplePie-Scroll) | This repository: the source configures 84 desktop / 72 mobile frames and a three-chapter ingredients-to-pie experience. |
 
-## Delivered
+Each repository is a separate variant. No preferred replacement or shared automatic synchronization is established by this map, and the other repositories were not modified.
 
-- Three sections: image mosaic hero, searchable recipe collection, weekend baking feature.
-- 13,463 imported complete recipes with local photos, plus ten original curated recipe previews. See DATASET.md for the import, storage, and validation details.
-- Search by dish or key ingredient; categories; browser-local favorites with empty states.
-- Accessible native recipe dialog, responsive navigation, reduced-motion handling, image failure state, custom favicon, first-visit splash.
-- External publisher images remain remotely hosted; they are attributed beside recipes. Hero photo is by Hugo Aitken on Unsplash: https://unsplash.com/photos/PqYvDBwpXpU . Recipe sources are stored per entry in src/recipes.json.
+## Current implementation
 
-## Scope
+- [src/KitchenStory.tsx](src/KitchenStory.tsx) selects desktop or mobile at 767px, preloads the selected WebP sequence and draws a scroll-driven canvas.
+- Frame paths are `public/kitchen-scroll/desktop/frame001.webp` onward and the corresponding `mobile/` sequence. Each variant has a poster.
+- Reduced-motion or data-saver preferences use a static poster and recipe action. Loading failure also falls back to a static view.
+- [src/App.tsx](src/App.tsx) provides recipe search/categories, browser-local saved IDs, recipe dialogs and archive retry feedback.
+- [src/recipes.json](src/recipes.json) supplies the bundled curated entries.
 
-This is a searchable recipe library, separate from the Flutter Gemini recipe generator. The old HTML mockups remain under public for reference. Imported recipes include their supplied ingredients and full instructions. The original ten curated previews link to publisher instructions.
+## Recipe archive limitation
 
-## Review findings in the previous app
+The application requests `/dataset/index.json` and optional `/dataset/details/{chunk}.json`. At the reviewed commit, `public/` contains the favicon and kitchen-scroll assets, but no dataset directory. The source includes a visible archive-load error and retry action.
 
-- Home and saved cards used picsum URLs, which did not guarantee food or a matching dish.
-- The home screen had one hard-coded featured recipe.
-- Saved recipes were four mock cards named Recipe Name 1–4.
-- Those cards opened the same default sample recipe.
-- Home search and category pills did not filter a recipe collection.
+Do not infer that the original 13,463-recipe archive ships in this repository merely because its previous README repeated the original project's description. Recipe completeness and deployment need their own asset and browser checks. The original project's [DATASET.md](https://github.com/Joepikka/CookSmart/blob/main/DATASET.md) documents that separate import; it does not install assets here.
 
-## Validation — 2026-09-15
+## Develop and build
 
-- TypeScript and production build passed.
-- Browser verified chicken ingredient search returns two relevant recipes; Breakfast returns pancakes.
-- Recipe detail dialog opened with the correct source URL and content.
-- Saving survived refresh; collection filtering and removing the test favorite produced the correct empty state.
-- Mobile checked at 390 × 844, including menu and hero; normal desktop/tablet preview also inspected.
+```powershell
+npm ci
+npm run dev
+npm run build
+npm run preview
+```
 
-## Hosting status
+The development server defaults to http://127.0.0.1:5173/. The build runs TypeScript checking and Vite via [package.json](package.json).
 
-Registration initially returned an uncertain transport failure. A subsequent Sites list/get confirmed the existing CookSmart project. Its exact ID is persisted in .openai/hosting.json; do not create another Site.
+[vite.config.ts](vite.config.ts) sets the GitHub Pages base to `/CookSmart-ApplePie-Scroll/` only when `GITHUB_PAGES=true` is in the build environment. The archive fetch URLs in App.tsx remain origin-root paths, so verify archive routing separately before claiming a complete Pages deployment.
 
-No version was published. During the task, the Sites plugin files disappeared from the configured cache. The required hosting skill and build/packaging scripts could not be found by a hidden/unignored search of the plugin cache. Resume publishing for the existing registered project once the plugin files are restored. Local preview remains the deliverable.
+## Verification scope
+
+README-only change, based on source inspection on 25 October 2026 at commit `4d1e6280318cd593787071f93ca3e30c8e2026e3`. No build, frame download, browser animation, recipe import or live deployment was run in this documentation pass. No published URL is asserted.
